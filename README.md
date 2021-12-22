@@ -7,11 +7,6 @@ Run and Compile:
 make
 ```
 
-Generate Javadocs:
-```bash
-make doc
-```
-
 ## Gitpod
 
 This repository is configured for an automated Coding Environment using Gitpod.

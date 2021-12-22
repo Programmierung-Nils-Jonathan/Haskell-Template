@@ -7,10 +7,10 @@ compile-run:
 	@make run
 
 compile:
-	ghc ${MAINCLASS}.hs
+	ghc ${FILENAME}.hs
 
 run:
-	./${MAINCLASS}
+	./${FILENAME}
 
 clean:
 	@rm ./*.o && rm ./*.hi || true
